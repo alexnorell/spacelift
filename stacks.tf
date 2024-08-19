@@ -10,7 +10,6 @@ resource "spacelift_stack" "ezgpg" {
   terraform_workflow_tool = local.tool
   terraform_version       = local.tf_version
 
-  administrative               = true
   protect_from_deletion        = true
   terraform_smart_sanitization = true
 }
