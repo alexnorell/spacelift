@@ -9,4 +9,4 @@ locals {
   tf_version = "1.8.1"
 
 
-  }
+}
