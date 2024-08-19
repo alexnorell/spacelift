@@ -1,5 +1,5 @@
 resource "spacelift_stack" "ezgpg" {
-  autodeploy   = true
+  autodeploy   = false
   branch       = "main"
   name         = "ezgpg"
   project_root = "infrastructure"
