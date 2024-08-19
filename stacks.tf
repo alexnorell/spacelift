@@ -4,6 +4,7 @@ resource "spacelift_stack" "ezgpg" {
   name              = "ezgpg"
   project_root      = "infrastructure"
   repository        = "ezgpg"
+  tool              = local.tool
   terraform_version = local.tf_version
   space_id          = local.space_id
   slug              = "ezgpg"
